@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, Extended version -->
+    <string name="extended_version">扩展版本</string>
+    <string name="extended_version_default">未知</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">生成日期</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">不需要，开发设置默认启用。</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">更新日志</string>
+    <string name="changelog_summary">最近更改</string>
+    <string name="changelog_loading">载入更新日志\u2026</string>
+    <string name="changelog_error">无法加载changelog</string>
+
+    <!-- About AospExtended -->
+    <string name="aex_about_info">关于我们</string>
+    <string name="aex_about_summary">我们的介绍和我们的团队</string>
+    <string name="dev_info">关于 AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">查看我们的源代码</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">加入我们的G +社区</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">订阅我们的电报频道</string>
+    <string name="web">下载中心</string>
+    <string name="web_description">访问我们的下载门户</string>
+    <string name="help_translate">翻译</string>
+    <string name="help_translate_description">翻译成您的语言，请访问我们的Crowdin</string>
+    <string name="walls">壁纸</string>
+    <string name="walls_description">获取各种用户贡献的壁纸</string>
+    <string name="leads">团队线索</string>
+    <string name="team1_description">所有者/潜在客户</string>
+    <string name="team2_description">开发者</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">主持人和业余开发者</string>
+    <string name="team4_description">开发者</string>
+    <string name="designers">Designers</string>
+    <string name="designer1_description">线条横幅，标志，壁纸</string>
+    <string name="designer3_description">壁纸, Bootanimations</string>
+    <string name="maintainers">维护者</string>
+    <string name="maintainer_description">维护 %1$s</string>
+
+    <!-- AEX OTA -->
+    <string name="aex_ota_title">AEX更新</string>
+    <string name="aex_ota_summary">获取最新版本</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">扩展桌面</string>
+    <string name="expanded_hide_nothing">不隐藏</string>
+    <string name="expanded_hide_status">隐藏状态栏</string>
+    <string name="expanded_hide_navigation">隐藏导航栏</string>
+    <string name="expanded_hide_both">隐藏两个</string>
+    <string name="expanded_nothing_to_show">要为展开状态添加自定义每个应用程序配置，请将“全部启用”设置为关闭位置</string>
+    <string name="expanded_desktop_state">扩展状态</string>
+    <string name="expanded_enabled_for_all">为所有人启用</string>
+    <string name="expanded_user_configurable">用户可配置</string>
+    <string name="expanded_desktop_style">扩展桌面样式</string>
+    <string name="expanded_desktop_style_description">选择默认的扩展桌面样式</string>
+    <string name="expanded_desktop_title">扩展桌面选项</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">截图声音</string>
+    <string name="screenshot_sound_summary">在拍摄截图时播放音效</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">亮度</string>
+    <string name="night_brightness_value_title">如果夜间亮度降低</string>
+    <string name="night_bright_disabled">已禁用</string>
+    <string name="night_bright_minimum">最低亮度</string>
+    <string name="night_bright_low">低亮度</string>
+    <string name="night_bright_medium">中等亮度</string>
+
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">link和通知音量</string>
+    <string name="notification_volume_option_title">通知音量</string>
+    <string name="ring_notification_volume_option_title">铃声和通知音量</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置</string>
+    <string name="app_ops_cat_personal">个人</string>
+    <string name="app_ops_cat_messaging">消息传递</string>
+    <string name="app_ops_cat_media">媒体</string>
+    <string name="app_ops_cat_device">设备</string>
+    <string name="app_ops_cat_bootup">启动</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">相机</string>
+    <string name="app_ops_access_location">location</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">autostart</string>
+    <string name="app_ops_delete_call_log">删除通话记录</string>
+    <string name="app_ops_delete_contacts">删除联系人</string>
+    <string name="app_ops_delete_mms">删除彩信</string>
+    <string name="app_ops_delete_sms">删除短信</string>
+    <string name="app_ops_draw_on_top">在顶部绘制</string>
+    <string name="app_ops_get_usage_stats">获取使用情况统计信息</string>
+    <string name="app_ops_keep_device_awake">保持清醒</string>
+    <string name="app_ops_make_phone_call">拨打电话</string>
+    <string name="app_ops_modify_calendar">更新日历</string>
+    <string name="app_ops_modify_call_log">更新通话记录</string>
+    <string name="app_ops_modify_clipboard">修改剪贴板</string>
+    <string name="app_ops_modify_contacts">更新联系人</string>
+    <string name="app_ops_modify_settings">更新设置</string>
+    <string name="app_ops_mute_unmute_microphone">静音/取消静音麦克风</string>
+    <string name="app_ops_play_audio">播放音频</string>
+    <string name="app_ops_post_notification">发布通知</string>
+    <string name="app_ops_project_media">项目媒体</string>
+    <string name="app_ops_read_calendar">读取日历</string>
+    <string name="app_ops_read_call_log">阅读通话记录</string>
+    <string name="app_ops_read_clipboard">读取剪贴板</string>
+    <string name="app_ops_read_contacts">阅读联系人</string>
+    <string name="app_ops_read_mms">阅读彩信</string>
+    <string name="app_ops_read_sms">阅读短信</string>
+    <string name="app_ops_receive_sms">接收短信</string>
+    <string name="app_ops_record_audio">录制音频</string>
+    <string name="app_ops_send_mms">发送彩信</string>
+    <string name="app_ops_send_sms">发送短信</string>
+    <string name="app_ops_toast_window">吐司消息</string>
+    <string name="app_ops_use_alarm_volume">警报音量</string>
+    <string name="app_ops_use_audio_focus">音频焦点</string>
+    <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">媒体按钮</string>
+    <string name="app_ops_use_media_volume">媒体音量</string>
+    <string name="app_ops_use_notification_volume">通知音量</string>
+    <string name="app_ops_use_ring_volume">铃声音量</string>
+    <string name="app_ops_use_vibrate">触觉反馈</string>
+    <string name="app_ops_use_voice_volume">语音通话音量</string>
+    <string name="app_ops_write_mms">写彩信</string>
+    <string name="app_ops_write_sms">写SMSe </string>
+    <string name="app_ops_use_fingerprint">指纹</string>
+    <string name="app_ops_add_voicemail">语音信箱</string>
+    <string name="app_ops_read_phone_state">访问手机状态</string>
+    <string name="app_ops_scan_wifi">扫描WiFi网络</string>
+    <string name="app_ops_change_wallpaper">更换壁纸</string>
+    <string name="app_ops_assist_structure">辅助结构</string>
+    <string name="app_ops_assist_screenshot">截图</string>
+    <string name="app_ops_use_body_sensors">正文传感器</string>
+    <string name="app_ops_read_cell_broadcasts">小区广播</string>
+    <string name="app_ops_mock_location">模拟位置</string>
+    <string name="app_ops_read_external_storage">阅读分机。stor。</string>
+    <string name="app_ops_write_external_storage">写入分机。stor。</string>
+    <string name="app_ops_turn_on_screen">打开屏幕</string>
+    <string name="app_ops_get_accounts">设备帐户</string>
+    <string name="app_ops_run_in_background">在后台运行</string>
+    <string name="app_ops_accessibility_volume">辅助功能卷</string>
+    <string name="app_ops_read_phone_numbers">读取手机号码</string>
+    <string name="app_ops_request_install_packages">安装软件包</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">开始前台</string>
+    <string name="app_ops_answer_phone_calls">应答呼叫</string>
+    <string name="app_ops_boot_completed">自动启动</string>
+
+   <!-- Root Management -->
+    <string name="rootmanagement_title">Root 管理</string>
+    <string name="rootmanagement_dashboard_summary">管理根访问</string>
+
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">桌面备份密码</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">通知颜色</string>
+    <string name="battery_saver_color_summary">启用橙色状态 - 激活节电器时的导航条</string>
+
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">充电?</string>
+    <string name="wakeup_when_plugged_unplugged_summary">如果充电器插入/拔出，则唤醒设备。</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">显示CPU信</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">显示屏幕覆盖当前CPU信息</string>
+
+    <string name="dashboard_conditions_title">仪表板</string>
+    <string name="summary_dashboard_conditions_enabled">启用仪表板</string>
+    <string name="summary_dashboard_conditions_disabled">仪表板已禁用</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization"> LED灯通知</string>
+    <string name="custom_light_title">浅色</string>
+    <string name="custom_light_on_time_title">"LED显示时间(ms)"</string>
+    <string name="custom_light_off_time_title">"Light OFF time during led pulse (ms)"</string>
+    <string name="app_notifications_info_desc">点击上述其中一个频道来配置其颜色和其他选项</string>
+    <string name="value_equals_default">Def</string>
+    <string name="show_light_on_zen_title">请勿打扰</string>
+
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">音量调节音</string>
+
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">重置统计信息</string>
+    <string name="reset_stats_msg">电池记录统计将被重置</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">音量级别</string>
+    <string name="volume_steps_alarm_title">音量级别: 闹铃</string>
+    <string name="volume_steps_dtmf_title">音量级别: DTMF</string>
+    <string name="volume_steps_music_title">音量级别: 音乐</string>
+    <string name="volume_steps_notification_title">音量级别: ：通知</string>
+    <string name="volume_steps_ring_title">音量级别: Ringer</string>
+    <string name="volume_steps_system_title">音量级别: 系统</string>
+    <string name="volume_steps_voice_call_title">音量级别: 语音呼叫</string>
+    <string name="volume_steps_reset">重置</string>
+
+    <string name="dashboard_suggestions_title">仪表板</string>
+    <string name="summary_dashboard_suggestions_enabled">启用了仪表板提示</string>
+    <string name="summary_dashboard_suggestions_disabled">仪表板提示被禁用</string>
+
+    <!-- Dashboard Category -->
+    <string name="dashboard_category">仪表板选项</string>
+
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">设备已加密</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">设备被解密</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">通过网络接口 ADB</string>
+    <string name="adb_over_network_summary">在网络接口上启用TCP/IP调试(Wi-Fi, USB networks). 重新启动时重置此设置。</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告：当亚行通过网络启用时，您的电话是开放的，用于对所有连接网络（包括GSM数据网络）进行入侵。!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+
+    <!-- Vibrate on plug -->
+    <string name="vibration_on_charge_state_changed_title">振动插头</string>
+
+    <string name="alert_on_charged_level_title">最佳充电等级提醒</string>
+    <string name="alert_on_charged_level_summary">如果屏幕关闭至少1分钟，则通知和播放最佳电量级别的声音/振动.\n通知可以长时间单独禁用.</string>
+    <string name="alert_on_charged_level_dis">已禁用</string>
+
+    <!-- Themes -->
+    <string name="system_theme_style_title">用户界面样式</string>
+    <string name="system_theme_style_auto">基于壁纸</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">黑暗的用户界面</string>
+    <string name="system_theme_style_black">黑色的用户界面</string>
+    <string name="theme_applied_toast">主题应用!</string>
+    <string name="ui_style_applied_toast">应用了UI风格!</string>
+
+    <string name="battery_image">电池图像</string>
+    <string name="battery_image_description">状态栏显示电池图标</string>
+
+</resources>
+
+
+
