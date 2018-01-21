@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, Extended version -->
-    <string name="extended_version">扩展版本</string>
+    <string name="extended_version">Aosp版本</string>
     <string name="extended_version_default">未知</string>
 
     <!-- About phone screen, build date -->
