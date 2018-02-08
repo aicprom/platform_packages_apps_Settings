@@ -286,8 +286,8 @@
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="system_theme_style_black">Black UI</string>
     <string name="system_theme_style_extended">Extended UI</string>
-    <string name="theme_applied_toast">Theme applied!</string>
-    <string name="ui_style_applied_toast">UI style applied!</string>
+    <string name="theme_applied_toast">Theme applied.</string>
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
 
     <string name="battery_image">Battery image</string>
     <string name="battery_image_description">Show battery image in status bar</string>
@@ -310,5 +310,8 @@
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 
 </resources>
