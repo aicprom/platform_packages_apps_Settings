@@ -40,6 +40,7 @@ import android.os.UserManager;
 import android.os.storage.StorageManager;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.provider.Settings.Secure;
 import android.service.trust.TrustAgentService;
 import android.support.annotation.VisibleForTesting;
 import android.support.v14.preference.SwitchPreference;
@@ -750,9 +751,11 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private void unifyLocks() {
         int profileQuality =
                 mLockPatternUtils.getKeyguardStoredPasswordQuality(mProfileChallengeUserId);
+        final LockPatternUtils lockPatternUtils = mChooseLockSettingsHelper.utils();
         if (profileQuality == DevicePolicyManager.PASSWORD_QUALITY_SOMETHING) {
             mLockPatternUtils.saveLockPattern(
-                    LockPatternUtils.stringToPattern(mCurrentProfilePassword),
+                    LockPatternUtils.stringToPattern(mCurrentProfilePassword,
+                        lockPatternUtils.getLockPatternSize(MY_USER_ID)),
                     mCurrentDevicePassword, MY_USER_ID);
         } else {
             mLockPatternUtils.saveLockPassword(
@@ -1000,16 +1003,23 @@ public class SecuritySettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener, OwnerInfoPreferenceController.OwnerInfoCallback {
 
         private static final String KEY_VISIBLE_PATTERN = "visiblepattern";
+        private static final String KEY_VISIBLE_ERROR_PATTERN = "visible_error_pattern";
+        private static final String KEY_VISIBLE_DOTS = "visibledots";
         private static final String KEY_LOCK_AFTER_TIMEOUT = "lock_after_timeout";
         private static final String KEY_POWER_INSTANTLY_LOCKS = "power_button_instantly_locks";
+        private static final String KEY_DIRECTLY_SHOW = "directlyshow";
 
         // These switch preferences need special handling since they're not all stored in Settings.
         private static final String SWITCH_PREFERENCE_KEYS[] = { KEY_LOCK_AFTER_TIMEOUT,
-                KEY_VISIBLE_PATTERN, KEY_POWER_INSTANTLY_LOCKS };
+                KEY_VISIBLE_PATTERN, KEY_VISIBLE_ERROR_PATTERN, KEY_VISIBLE_DOTS,
+                KEY_POWER_INSTANTLY_LOCKS, KEY_DIRECTLY_SHOW };
 
         private TimeoutListPreference mLockAfter;
         private SwitchPreference mVisiblePattern;
+        private SwitchPreference mVisibleErrorPattern;
+        private SwitchPreference mVisibleDots;
         private SwitchPreference mPowerButtonInstantlyLocks;
+        private SwitchPreference mDirectlyShow;
 
         private TrustAgentManager mTrustAgentManager;
         private LockPatternUtils mLockPatternUtils;
@@ -1041,12 +1051,21 @@ public class SecuritySettings extends SettingsPreferenceFragment
             createPreferenceHierarchy();
 
             if (mVisiblePattern != null) {
-                mVisiblePattern.setChecked(mLockPatternUtils.isVisiblePatternEnabled(
-                        MY_USER_ID));
+                mVisiblePattern.setChecked(mLockPatternUtils.isVisiblePatternEnabled(MY_USER_ID));
+            }
+            if (mVisibleErrorPattern != null) {
+                mVisibleErrorPattern.setChecked(mLockPatternUtils.isShowErrorPath(MY_USER_ID));
+            }
+            if (mVisibleDots != null) {
+                mVisibleDots.setChecked(mLockPatternUtils.isVisibleDotsEnabled(MY_USER_ID));
             }
             if (mPowerButtonInstantlyLocks != null) {
                 mPowerButtonInstantlyLocks.setChecked(
                         mLockPatternUtils.getPowerButtonInstantlyLocks(MY_USER_ID));
+            }
+            if (mDirectlyShow != null) {
+                mDirectlyShow.setChecked(mLockPatternUtils.shouldPassToSecurityView(
+                        MY_USER_ID));
             }
 
             mOwnerInfoPreferenceController.updateSummary();
@@ -1077,8 +1096,17 @@ public class SecuritySettings extends SettingsPreferenceFragment
                 updateLockAfterPreferenceSummary();
             }
 
+            // directly show
+            mDirectlyShow = (SwitchPreference) findPreference(KEY_DIRECTLY_SHOW);
+
             // visible pattern
             mVisiblePattern = (SwitchPreference) findPreference(KEY_VISIBLE_PATTERN);
+
+            // visible error pattern
+            mVisibleErrorPattern = (SwitchPreference) findPreference(KEY_VISIBLE_ERROR_PATTERN);
+
+            // visible dots
+            mVisibleDots = (SwitchPreference) findPreference(KEY_VISIBLE_DOTS);
 
             // lock instantly on power key press
             mPowerButtonInstantlyLocks = (SwitchPreference) findPreference(
@@ -1201,6 +1229,12 @@ public class SecuritySettings extends SettingsPreferenceFragment
                 updateLockAfterPreferenceSummary();
             } else if (KEY_VISIBLE_PATTERN.equals(key)) {
                 mLockPatternUtils.setVisiblePatternEnabled((Boolean) value, MY_USER_ID);
+            } else if (KEY_DIRECTLY_SHOW.equals(key)) {
+                mLockPatternUtils.setPassToSecurityView((Boolean) value, MY_USER_ID);
+            } else if (KEY_VISIBLE_ERROR_PATTERN.equals(key)) {
+                mLockPatternUtils.setShowErrorPath((Boolean) value, MY_USER_ID);
+            } else if (KEY_VISIBLE_DOTS.equals(key)) {
+                mLockPatternUtils.setVisibleDotsEnabled((Boolean) value, MY_USER_ID);
             }
             return true;
         }

@@ -128,7 +128,7 @@
   <string name="app_ops_modify_clipboard">修改剪貼簿</string>
   <string name="app_ops_modify_contacts">更新聯絡人</string>
   <string name="app_ops_modify_settings">更新設定</string>
-  <string name="app_ops_mute_unmute_microphone">麥克靜音/取消靜音</string>
+  <string name="app_ops_mute_unmute_microphone">麥克風靜音/取消靜音</string>
   <string name="app_ops_play_audio">播放音訊</string>
   <string name="app_ops_post_notification">發佈通知</string>
   <string name="app_ops_project_media">媒體投放</string>
@@ -171,7 +171,7 @@
   <string name="app_ops_get_accounts">裝置帳戶</string>
   <string name="app_ops_run_in_background">在背景執行</string>
   <string name="app_ops_accessibility_volume">協助工具音量</string>
-  <string name="app_ops_read_phone_numbers">讀取電話號碼。</string>
+  <string name="app_ops_read_phone_numbers">讀取電話號碼</string>
   <string name="app_ops_request_install_packages">安裝套件</string>
   <string name="app_ops_picture_in_picture">PiP</string>
   <string name="app_ops_app_start_foreground">開始前景</string>
@@ -255,9 +255,49 @@
   <string name="system_theme_style_dark">深色使用者介面</string>
   <string name="system_theme_style_black">黑色使用者介面</string>
   <string name="system_theme_style_extended">延伸使用者介面</string>
-  <string name="theme_applied_toast">主題已套用！</string>
-  <string name="ui_style_applied_toast">使用者介面樣式已套用！</string>
-  <string name="battery_image">電池圖片</string>
-  <string name="battery_image_description">在狀態列中顯示電池圖片</string>
+  <string name="theme_applied_toast">主題已套用。</string>
+  <string name="applying_theme_toast">套用主題中，請稍候...</string>
   <!-- MSIM Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>已<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">啟用</string>
+  <string name="sim_disabled">停用</string>
+  <string name="sim_missing">遺失或故障</string>
+  <string name="sim_enabler_need_disable_sim">SIM 卡將被停用，您確定要繼續嗎？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
+  <string name="sim_enabler_need_switch_data_service">此 SIM 卡將被停用，並且將使用 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 於數據服務中，您確定要繼續嗎？</string>
+  <string name="sim_enabler_airplane_on">飛航模式開啟時無法進行此操作。</string>
+  <string name="sim_enabler_in_call">通話時無法進行此操作。</string>
+  <string name="sim_enabler_both_inactive">無法停用所有 SIM 卡</string>
+  <string name="sim_enabler_enabling">啟用中\u2026</string>
+  <string name="sim_enabler_disabling">停用中\u2026</string>
+  <string name="sub_activate_success">SIM 卡已啟用。</string>
+  <string name="sub_activate_failed">啟用失敗。</string>
+  <string name="sub_deactivate_success">SIM 卡已停用。</string>
+  <string name="sub_deactivate_failed">停用失敗。</string>
+  <string name="available_sims_title">可用的 SIM 卡</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">顯示通知歷史記錄</string>
+  <!-- Scramble PIN Layout on Lockscreen -->
+  <string name="unlock_scramble_pin_layout_title">亂序布局</string>
+  <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+  <!-- Increasing ring tone volume -->
+  <string name="increasing_ring_volume_option_title">增加鈴聲音量</string>
+  <string name="increasing_ring_min_volume_title">初始音量</string>
+  <string name="increasing_ring_ramp_up_time_title">增強時間</string>
+  <!-- Display : Rotation -->
+  <string name="display_rotation_title">旋轉</string>
+  <string name="display_rotation_disabled">停用</string>
+  <string name="display_rotation_unit">度</string>
+  <string name="display_rotation_category_title">旋轉模式</string>
+  <string name="display_rotation_0_title">0 度</string>
+  <string name="display_rotation_90_title">90 度</string>
+  <string name="display_rotation_180_title">180 度</string>
+  <string name="display_rotation_270_title">270 度</string>
+  <!-- Pass swipe-up-to-unlock -->
+  <!-- Sizes for pattern lockscreen -->
+  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+  <!-- Lock screen vibrate settings -->
 </resources>

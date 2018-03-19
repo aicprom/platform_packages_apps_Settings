@@ -123,73 +123,73 @@
     <string name="app_ops_cat_bootup">Bootup</string>
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
-    <string name="app_ops_access_camera">camera</string>
-    <string name="app_ops_access_location">location</string>
-    <string name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_access_camera">Camera</string>
+    <string name="app_ops_access_location">Location</string>
+    <string name="app_ops_access_notifications">Notifications</string>
     <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">autostart</string>
-    <string name="app_ops_delete_call_log">delete call log</string>
-    <string name="app_ops_delete_contacts">delete contacts</string>
-    <string name="app_ops_delete_mms">delete MMS</string>
-    <string name="app_ops_delete_sms">delete SMS</string>
-    <string name="app_ops_draw_on_top">draw on top</string>
-    <string name="app_ops_get_usage_stats">get usage stats</string>
-    <string name="app_ops_keep_device_awake">keep awake</string>
-    <string name="app_ops_make_phone_call">make call</string>
-    <string name="app_ops_modify_calendar">update calendar</string>
-    <string name="app_ops_modify_call_log">update call log</string>
-    <string name="app_ops_modify_clipboard">modify clipboard</string>
-    <string name="app_ops_modify_contacts">update contacts</string>
-    <string name="app_ops_modify_settings">update settings</string>
-    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-    <string name="app_ops_play_audio">play audio</string>
-    <string name="app_ops_post_notification">post notification</string>
-    <string name="app_ops_project_media">project media</string>
-    <string name="app_ops_read_calendar">read calendar</string>
-    <string name="app_ops_read_call_log">read call log</string>
-    <string name="app_ops_read_clipboard">read clipboard</string>
-    <string name="app_ops_read_contacts">read contacts</string>
-    <string name="app_ops_read_mms">read MMS</string>
-    <string name="app_ops_read_sms">read SMS</string>
-    <string name="app_ops_receive_sms">receive SMS</string>
-    <string name="app_ops_record_audio">record audio</string>
-    <string name="app_ops_send_mms">send MMS</string>
-    <string name="app_ops_send_sms">send SMS</string>
-    <string name="app_ops_toast_window">toast messages</string>
-    <string name="app_ops_use_alarm_volume">alarm volume</string>
-    <string name="app_ops_use_audio_focus">audio focus</string>
+    <string name="app_ops_auto_start">Autostart</string>
+    <string name="app_ops_delete_call_log">Delete call log</string>
+    <string name="app_ops_delete_contacts">Delete contacts</string>
+    <string name="app_ops_delete_mms">Delete MMS</string>
+    <string name="app_ops_delete_sms">Delete SMS</string>
+    <string name="app_ops_draw_on_top">Draw on top</string>
+    <string name="app_ops_get_usage_stats">Get usage stats</string>
+    <string name="app_ops_keep_device_awake">Keep awake</string>
+    <string name="app_ops_make_phone_call">Make call</string>
+    <string name="app_ops_modify_calendar">Update calendar</string>
+    <string name="app_ops_modify_call_log">Update call log</string>
+    <string name="app_ops_modify_clipboard">Modify clipboard</string>
+    <string name="app_ops_modify_contacts">Update contacts</string>
+    <string name="app_ops_modify_settings">Update settings</string>
+    <string name="app_ops_mute_unmute_microphone">Mute/unmute mic</string>
+    <string name="app_ops_play_audio">Play audio</string>
+    <string name="app_ops_post_notification">Post notification</string>
+    <string name="app_ops_project_media">Project media</string>
+    <string name="app_ops_read_calendar">Read calendar</string>
+    <string name="app_ops_read_call_log">Read call log</string>
+    <string name="app_ops_read_clipboard">Read clipboard</string>
+    <string name="app_ops_read_contacts">Read contacts</string>
+    <string name="app_ops_read_mms">Read MMS</string>
+    <string name="app_ops_read_sms">Read SMS</string>
+    <string name="app_ops_receive_sms">Receive SMS</string>
+    <string name="app_ops_record_audio">Record audio</string>
+    <string name="app_ops_send_mms">Send MMS</string>
+    <string name="app_ops_send_sms">Send SMS</string>
+    <string name="app_ops_toast_window">Toast messages</string>
+    <string name="app_ops_use_alarm_volume">Alarm volume</string>
+    <string name="app_ops_use_audio_focus">Audio focus</string>
     <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-    <string name="app_ops_use_master_volume">master volume</string>
-    <string name="app_ops_use_media_buttons">media buttons</string>
-    <string name="app_ops_use_media_volume">media volume</string>
-    <string name="app_ops_use_notification_volume">notification volume</string>
-    <string name="app_ops_use_ring_volume">ringtone volume</string>
-    <string name="app_ops_use_vibrate">haptic feedback</string>
-    <string name="app_ops_use_voice_volume">voice call volume</string>
-    <string name="app_ops_write_mms">write MMS</string>
-    <string name="app_ops_write_sms">write SMSe</string>
-    <string name="app_ops_use_fingerprint">fingerprint</string>
-    <string name="app_ops_add_voicemail">voicemail</string>
-    <string name="app_ops_read_phone_state">access phone state</string>
+    <string name="app_ops_use_master_volume">Master volume</string>
+    <string name="app_ops_use_media_buttons">Media buttons</string>
+    <string name="app_ops_use_media_volume">Media volume</string>
+    <string name="app_ops_use_notification_volume">Notification volume</string>
+    <string name="app_ops_use_ring_volume">Ringtone volume</string>
+    <string name="app_ops_use_vibrate">Haptic feedback</string>
+    <string name="app_ops_use_voice_volume">Voice call volume</string>
+    <string name="app_ops_write_mms">Write MMS</string>
+    <string name="app_ops_write_sms">Write SMS</string>
+    <string name="app_ops_use_fingerprint">Fingerprint</string>
+    <string name="app_ops_add_voicemail">Voicemail</string>
+    <string name="app_ops_read_phone_state">Access phone state</string>
     <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-    <string name="app_ops_change_wallpaper">change wallpaper</string>
-    <string name="app_ops_assist_structure">assist structure</string>
-    <string name="app_ops_assist_screenshot">screenshot</string>
-    <string name="app_ops_use_body_sensors">body sensors</string>
-    <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-    <string name="app_ops_mock_location">mock location</string>
-    <string name="app_ops_read_external_storage">read ext. stor.</string>
-    <string name="app_ops_write_external_storage">write ext. stor.</string>
-    <string name="app_ops_turn_on_screen">turn screen on</string>
-    <string name="app_ops_get_accounts">device accounts</string>
-    <string name="app_ops_run_in_background">run in background</string>
-    <string name="app_ops_accessibility_volume">accessibility volume</string>
-    <string name="app_ops_read_phone_numbers">read phone num.</string>
-    <string name="app_ops_request_install_packages">install packages</string>
-    <string name="app_ops_picture_in_picture">pip</string>
-    <string name="app_ops_app_start_foreground">start foreground</string>
-    <string name="app_ops_answer_phone_calls">answer calls</string>
-    <string name="app_ops_boot_completed">auto start</string>
+    <string name="app_ops_change_wallpaper">Change wallpaper</string>
+    <string name="app_ops_assist_structure">Assist structure</string>
+    <string name="app_ops_assist_screenshot">Screenshot</string>
+    <string name="app_ops_use_body_sensors">Body sensors</string>
+    <string name="app_ops_read_cell_broadcasts">Cell broadcasts</string>
+    <string name="app_ops_mock_location">Mock location</string>
+    <string name="app_ops_read_external_storage">Read ext. storage</string>
+    <string name="app_ops_write_external_storage">Write ext. storage</string>
+    <string name="app_ops_turn_on_screen">Turn screen on</string>
+    <string name="app_ops_get_accounts">Device accounts</string>
+    <string name="app_ops_run_in_background">Run in background</string>
+    <string name="app_ops_accessibility_volume">Accessibility volume</string>
+    <string name="app_ops_read_phone_numbers">Read phone number</string>
+    <string name="app_ops_request_install_packages">Install packages</string>
+    <string name="app_ops_picture_in_picture">PiP</string>
+    <string name="app_ops_app_start_foreground">Start foreground</string>
+    <string name="app_ops_answer_phone_calls">Answer calls</string>
+    <string name="app_ops_boot_completed">Auto start</string>
 
    <!-- Root Management -->
     <string name="rootmanagement_title">Root management</string>
@@ -289,9 +289,6 @@
     <string name="theme_applied_toast">Theme applied.</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
 
-    <string name="battery_image">Battery image</string>
-    <string name="battery_image_description">Show battery image in status bar</string>
-
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">enabled</string>
@@ -313,5 +310,51 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered. It is recommended that you use a pin under 6 digits. If PIN Crosses 6 digits, you may be locked out. You have been warned!</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Pass swipe-up-to-unlock -->
+    <string name="lock_directly_show_password">Directly show password entry</string>
+    <string name="lock_directly_show_pattern">Directly show pattern view</string>
+    <string name="lock_directly_show_pin">Directly show PIN entry</string>
+    <string name="lock_directly_show_summary">Skip the swipe up to unlock screen when unlocking the device</string>
+
+    <!-- Sizes for pattern lockscreen -->
+    <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
+    <string name="lock_pattern_size_5" translatable="false">5 \u00d7 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
+
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
 
 </resources>

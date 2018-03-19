@@ -23,12 +23,26 @@
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
+    <SwitchPreference
+        android:key="visible_error_pattern"
+        android:title="@string/lockpattern_settings_enable_error_path_title"/>
+
+    <SwitchPreference
+        android:key="visibledots"
+        android:title="@string/lockpattern_settings_enable_dots_title"/>
+
     <com.android.settings.TimeoutListPreference
         android:key="lock_after_timeout"
         android:title="@string/lock_after_timeout"
         android:summary="@string/summary_placeholder"
         android:entries="@array/lock_after_timeout_entries"
         android:entryValues="@array/lock_after_timeout_values" />
+
+    <SwitchPreference
+        android:key="directlyshow"
+        android:persistent="false"
+        android:title="@string/lock_directly_show_pattern"
+        android:summary="@string/lock_directly_show_summary" />
 
     <SwitchPreference
         android:key="power_button_instantly_locks"
