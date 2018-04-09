@@ -64,6 +64,8 @@
     <string name="designer2_description">QS/Fling logos</string>
     <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
     <string name="designer3_description">Wallpapers, Bootanimations</string>
+    <string name="designer_4">Harsh V23</string>
+    <string name="designer4_description">Extensions UI, Icons</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainers_title">Official maintainers</string>
     <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
@@ -368,6 +370,22 @@
     <string name="menu_show_substratum">Show overlays</string>
     <string name="menu_hide_substratum">Hide overlays</string>
 
-</resources>
+    <!-- Default USB configuration -->
+    <string name="select_default_usb_configuration_title">Select default USB configuration</string>
+    <string name="select_default_usb_configuration_dialog_title">Select USB Configuration</string>
+    <string name="default_usb_configuration" translatable="false" >default</string>
+    <string name="select_usb_default_confguration_warning">WARNING: Default USB configuration is enabled also when device is locked!\n\nDo you really want to enable this configuration?</string>
 
+    <!-- USB paranoia mode -->
+    <string name="usb_paranoia_connect_title">USB secure connect</string>
+    <string name="usb_paranoia_connect_summary">Only enable charging and disable ADB when USB plugged on secure lock screens</string>
+    <string name="usb_category_title">USB</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <string name="background_processes_settings_title">Background processes</string>
+
+</resources>
 
